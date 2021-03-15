@@ -1,3 +1,3 @@
-FROM	statping/statping
-RUN apk update 
-RUN apk upgrade
+FROM statping/statping
+RUN  apk update && \
+     apk upgrade
