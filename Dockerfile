@@ -1,3 +1,4 @@
 FROM statping/statping
 RUN  apk update && \
-     apk upgrade
+     apk upgrade && \
+     apk add mailx
